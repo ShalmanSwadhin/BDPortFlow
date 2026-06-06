@@ -66,4 +66,8 @@ exports.generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRE || '7d'
   });
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 03d2c11f1aeadf425c33d7a1a667815b34b2e176
