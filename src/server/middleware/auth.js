@@ -67,3 +67,4 @@ exports.generateToken = (id) => {
     expiresIn: process.env.JWT_EXPIRE || '7d'
   });
 };
+>>>>>>> 94833d4e02da050343b06cdb1df24b9e6d1c7b56
