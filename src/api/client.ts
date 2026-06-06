@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import axios from 'axios';
 
 const API_BASE_URL = (import.meta as any).env.VITE_API_URL || 'http://localhost:5000/api';
@@ -160,4 +158,3 @@ export const dashboardAPI = {
   getActivity: () => api.get('/dashboard/activity'),
   getCharts: (params?: any) => api.get('/dashboard/charts', { params }),
 };
->>>>>>> 94833d4e02da050343b06cdb1df24b9e6d1c7b56
